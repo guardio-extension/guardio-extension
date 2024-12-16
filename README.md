@@ -9,7 +9,7 @@
 3. Change the package's `name`, `description`, and `repository` fields in `package.json`.
 4. Change the name of your extension on `src/manifest.json`.
 5. Run `npm install` to install the dependencies.
-6. Run `npm start`
+6. Run `npm build`
 7. Load your extension on Chrome following:
    1. Access `chrome://extensions/`
    2. Check `Developer mode`
@@ -108,4 +108,3 @@ ApiCall({ key: secrets.key });
 
 - [Webpack documentation](https://webpack.js.org/concepts/)
 - [Chrome Extension documentation](https://developer.chrome.com/extensions/getstarted)
-
